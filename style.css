@@ -6,12 +6,21 @@
     padding: 0;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
     font-family:'Poppins', sans-serif;
 }
 
+.main-container{
+    display: flex;
+}
+
 .sidebar-container>video{
     height: 100vh;
+    
 }
 
 .brand{
@@ -28,7 +37,7 @@ body{
     position: absolute;
     bottom: 80px;
     left: 12vh;
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: 700;
     color: white;
 }
@@ -37,9 +46,17 @@ body{
     position: absolute;
     bottom: 30px;
     left: 17vh;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 100;
     color: white;
     text-decoration: none;
 }
 
+.form-continer{
+
+}
+
+.header-section{
+    font-size: 3.5rem;
+    margin: 5vh 5vh;
+}
