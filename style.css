@@ -20,7 +20,6 @@ body{
 
 .sidebar-container>video{
     height: 100vh;
-    
 }
 
 .brand{
@@ -52,11 +51,22 @@ body{
     text-decoration: none;
 }
 
-.form-continer{
+.form-container{
+    
+}
 
+.form-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
 }
 
 .header-section{
     font-size: 3.5rem;
-    margin: 5vh 5vh;
+    margin: 5vh 0;
 }
