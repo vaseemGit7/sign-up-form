@@ -70,3 +70,12 @@ body{
     font-size: 3.5rem;
     margin: 5vh 0;
 }
+
+.message-section{
+    margin: 60px 0;
+}
+
+.login{
+    padding-left: 5px;
+    color: rgba(46, 167, 242, 1);
+}
