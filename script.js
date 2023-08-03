@@ -1,10 +1,14 @@
 const firstName = document.querySelector('[name="firstName"]');
 const lastName = document.querySelector('[name="lastName"]');
 const email = document.querySelector('[name="email"]');
+const newPassword = document.querySelector('#newPassword');
+const confirmPassword = document.querySelector('#confirmPassword');
 
 const firstNameError = document.querySelector("#firstName-validation");
 const lastNameError = document.querySelector("#lastName-validation");
 const emailError = document.querySelector("#email-validation");
+const newPasswordError = document.querySelector('#newPassword-validation');
+const confirmPasswordError = document.querySelector('#confirmPassword-validation');
 
 //First Name Validation
 firstName.addEventListener('blur',()=>{
@@ -51,4 +55,19 @@ email.addEventListener('blur',()=>{
 
 email.addEventListener('focus',()=>{
     emailError.textContent ="";
+})
+
+//New Password Validation
+
+newPassword.addEventListener('blur',()=>{
+    if(!newPassword.checkValidity()){
+        newPasswordError.textContent = "*Password requires minimum 8 characters.";
+    }
+    else{
+        newPasswordError.textContent="";
+    }
+})
+
+newPassword.addEventListener('focus',()=>{
+    newPasswordError.textContent="";
 })

@@ -41,12 +41,14 @@
                         <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="tel">
                     </div> 
                     <div class="form-row">
-                        <label for="password">Password</label>
-                        <input required minlength="8" type="password" id="password" name="password" autocomplete="new-password">
+                        <label for="newPassword">Password</label>
+                        <input required minlength="8" type="password" id="newPassword" name="newPassword" autocomplete="new-password">
+                        <p class="validation-message" id="newPassword-validation"></p>
                     </div> 
                     <div class="form-row">
                         <label for="confirmPassword">Confirm Password</label>
                         <input required type="password" id="confirmPassword" name="confirmPassword">
+                        <p class="validation-message" id="confirmPassword-validation"></p>
                     </div> 
                     <button>Sign Up</button>  
                 </div>
