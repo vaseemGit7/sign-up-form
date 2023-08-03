@@ -80,3 +80,8 @@ body{
     padding-left: 5px;
     color: rgba(46, 167, 242, 1);
 }
+
+.validation-message{
+    font-size: 1rem;
+    color:red;
+}

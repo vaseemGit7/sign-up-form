@@ -23,14 +23,18 @@
                     <div class="form-row">
                         <label for="firstName">First Name</label>
                         <input required type="text" id="firstName" name="firstName" autocomplete="given-name">
+                        <p class="validation-message" id="firstName-validation"></p>
                     </div> 
                     <div class="form-row">
-                        <label for="lastName">Second Name</label>
+                        <label for="lastName">Last Name</label>
                         <input required type="text" id="lastname" name="lastName" autocomplete="family-name">
+                        <p class="validation-message" id="lastName-validation"></p>
                     </div> 
                     <div class="form-row">
                         <label for="email">Email</label>
-                        <input required type="email" id="email" name="email" autocomplete="email">
+                        <input required type="email" id="email" name="email" autocomplete="email" 
+                        pattern="^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$">  
+                        <p class="validation-message" id="email-validation"></p>                      
                     </div> 
                     <div class="form-row">
                         <label for="phoneNumber">Phone Number</label>
@@ -38,7 +42,7 @@
                     </div> 
                     <div class="form-row">
                         <label for="password">Password</label>
-                        <input required type="password" id="password" name="password" autocomplete="new-password">
+                        <input required minlength="8" type="password" id="password" name="password" autocomplete="new-password">
                     </div> 
                     <div class="form-row">
                         <label for="confirmPassword">Confirm Password</label>
