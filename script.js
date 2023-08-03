@@ -71,3 +71,14 @@ newPassword.addEventListener('blur',()=>{
 newPassword.addEventListener('focus',()=>{
     newPasswordError.textContent="";
 })
+
+//Confirm Password Validation
+
+confirmPassword.addEventListener('blur',()=>{
+    if(newPassword.value !== confirmPassword.value){
+        confirmPasswordError.textContent = "*Password did not match.";
+    }
+    else{
+        confirmPasswordError.textContent ="";
+    }
+})
