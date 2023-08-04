@@ -87,6 +87,17 @@ input{
     border: 1px solid #8F8F8F;
 }
 
+button{
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding: 12px 48px;
+    color: white;
+    background: #2EA7F2;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 .message-section{
 }
 
@@ -106,6 +117,9 @@ input:focus{
 }
 
 input:focus:invalid{
-
     border: 2px solid red;
+}
+
+button:active{
+    background-color: #2A96D9;
 }
