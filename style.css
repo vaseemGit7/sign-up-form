@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
 *{
@@ -19,6 +19,10 @@ body{
     display: flex;
 }
 
+.sidebar-container{
+    width: 40vw;
+}
+
 .sidebar-container>video{
     height: 100vh;
 }
@@ -28,8 +32,8 @@ body{
     top: 40px;
     left: 40px;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-family: 'Chicle', cursive;
-    font-size: 60px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 3rem;
     color: white;
 }
 
