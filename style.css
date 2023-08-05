@@ -21,10 +21,8 @@ body{
 
 .sidebar-container{
     width: 40vw;
-}
-
-.sidebar-container>video{
     height: 100vh;
+    background-color: #F1F1F1;
 }
 
 .brand{
@@ -58,7 +56,7 @@ body{
 
 .form-container{
     width: 50vw;
-    margin-left: 200px;
+    margin: 0 5vw;
     display: flex;
     flex-direction:column ;
     justify-content: space-evenly;
