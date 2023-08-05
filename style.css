@@ -22,7 +22,16 @@ body{
 .sidebar-container{
     width: 40vw;
     height: 100vh;
-    background-color: #F1F1F1;
+    background-image:url(./assets/pexels-codioful-\(formerly-gradienta\)-7130469.jpg);
+    background-size: cover;
+    background-position:bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration{
+    width:calc(40%);
 }
 
 .brand{
