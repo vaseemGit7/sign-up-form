@@ -55,8 +55,8 @@ body{
 .license{
     position: absolute;
     bottom: 30px;
-    left: 24vh;
-    font-size: 1.2rem;
+    left: 25vh;
+    font-size: 1.4rem;
     font-weight: 300;
     color: black;
 }
@@ -75,7 +75,7 @@ a{
 }
 
 .header-section{
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     font-weight: 700;
     margin-bottom: 30px;
 }
@@ -92,7 +92,7 @@ a{
 }
 
 label{
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -104,7 +104,7 @@ input{
 }
 
 button{
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: 700;
     padding: 12px 48px;
     color: white;
@@ -125,7 +125,7 @@ button{
 }
 
 .validation-message{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color:red;
 }
 
